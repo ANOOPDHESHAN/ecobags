@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
       /* Add back ground green */
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(45, 103, 60, 0.8);
+  background-color: rgba(45, 103, 60, 0.7);
   background-position: 0px, 0px, 250px,250px;
 }
 
@@ -1188,7 +1188,6 @@ section {
   background-color : #5cb874;
   color: white;
   padding: 10px 20px;
-  border-radius: 0px;
   border-radius: 100px;
   border: 0px;
 }
@@ -1198,10 +1197,21 @@ section {
   bottom: 250px;
   left: 0px;
   font-size: 11px;
+  
     
 }
 #mybutton:hover{
   animation: pulse 2s infinite;
+  border: 2px;
+  /* border-color: #5cb874; */
+  
+}
+.feedback:hover{
+
+  background-color: white;
+  color: #5cb874;
+  font-size: 12px;
+  
 }
 
 /* rowerBox */
@@ -1315,3 +1325,23 @@ hr.lines:before {
 
 
 
+
+
+
+
+
+/* About Page CSS */
+
+.cotainer{
+  
+  height: 200px;
+  align-content: center;
+  margin-left: 250px;
+  font-family: monospace;
+  color:green;
+  font-size: 25px;
+  margin-top: 100px;
+}
+#gall{
+  margin-top: 50px;
+}
