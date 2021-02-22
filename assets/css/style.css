@@ -951,36 +951,38 @@ section {
 
 
 
-.feedback {
-  background-color : #5cb874;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 100px;
-  border: 0px;
-  
-}
 
-#mybutton {
+
+#WhatsappIcon {
   position: fixed;
-  bottom: 250px;
+  bottom: 280px;
   left: 0px;
   font-size: 11px;
  
     
 }
-#mybutton:hover{
+#WhatsappIcon:hover{
   animation: pulse 2s infinite;
-  border: 2px;
+  /* border: 2px; */
   /* border-color: #5cb874; */
   
 }
-.feedback:hover{
-
-  background-color: white;
-  color: #5cb874;
-  font-size: 12px;
-  
+#PhoneIcon{
+  position: fixed;
+  bottom: 230px;
+  left: 15px;
+  font-size: 11px;
+ 
 }
+#PhoneIcon:hover{
+  animation: pulse 2s infinite;
+ 
+}
+
+
+
+
+
 
 /* rowerBox */
 
