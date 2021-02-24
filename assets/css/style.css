@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
-  z-index: 990;
+  z-index: 98;
 }
 
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
@@ -394,14 +394,13 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  z-index: 989;
+  
 }
       /* Add back ground green */
 #hero .carousel-item::before {
   content: '';
   background-color: rgba(45, 103, 60, 0.7);
   background-position: 0px, 0px, 250px,250px;
-  z-index: 988;
 }
 
 #hero .carousel-container {
@@ -961,7 +960,7 @@ section {
   bottom: 280px;
   left: 0px;
   font-size: 11px;
-  z-index: 980;
+  z-index: 90;
  
     
 }
@@ -976,7 +975,7 @@ section {
   bottom: 230px;
   left: 15px;
   font-size: 11px;
-  z-index: 980;
+  z-index: 90;
  
 }
 #PhoneIcon:hover{
