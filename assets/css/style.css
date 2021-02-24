@@ -393,6 +393,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
+  z-index: 9999;
 }
       /* Add back ground green */
 #hero .carousel-item::before {
@@ -958,6 +959,7 @@ section {
   bottom: 280px;
   left: 0px;
   font-size: 11px;
+  z-index: 9998;
  
     
 }
@@ -972,6 +974,7 @@ section {
   bottom: 230px;
   left: 15px;
   font-size: 11px;
+  z-index: 9998;
  
 }
 #PhoneIcon:hover{
