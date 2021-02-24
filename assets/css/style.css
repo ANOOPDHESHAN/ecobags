@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
-  z-index: 98;
+  z-index: 88;
 }
 
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
@@ -412,6 +412,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 112px;
   left: 50px;
   right: 50px;
+  z-index: 90;
 }
 
 #hero .container {
@@ -527,9 +528,11 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #hero {
     height: 100vh;
+    z-index: 88;
   }
   #hero .carousel-container {
     top: 66px;
+    z-index: 90;
   }
 }
 
@@ -960,7 +963,7 @@ section {
   bottom: 280px;
   left: 0px;
   font-size: 11px;
-  z-index: 90;
+  z-index: 50;
  
     
 }
@@ -975,7 +978,7 @@ section {
   bottom: 230px;
   left: 15px;
   font-size: 11px;
-  z-index: 90;
+  z-index: 50;
  
 }
 #PhoneIcon:hover{
