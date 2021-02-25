@@ -564,7 +564,7 @@ section {
 
 .section-bg {
   background-color: #f8fcf9;
-  z-index: -2;
+/*   z-index: -2; */
 }
 
 .section-title {
