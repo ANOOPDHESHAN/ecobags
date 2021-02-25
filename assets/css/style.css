@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
-  z-index: 88;
+  /* z-index: 88; */
 }
 
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 112px;
   left: 50px;
   right: 50px;
-  z-index: 90;
+  /* z-index: 90; */
 }
 
 #hero .container {
@@ -528,11 +528,11 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #hero {
     height: 100vh;
-    z-index: 88;
+    /* z-index: 88; */
   }
   #hero .carousel-container {
     top: 66px;
-    z-index: 90;
+    /* z-index: 90; */
   }
 }
 
@@ -551,6 +551,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-height: 500px) {
   #hero {
     height: 120vh;
+    
   }
 }
 
@@ -563,6 +564,7 @@ section {
 
 .section-bg {
   background-color: #f8fcf9;
+  z-index: -2;
 }
 
 .section-title {
@@ -594,7 +596,7 @@ section {
   left: calc(50% - 60px);
 }
 
-.section-title h2::after {
+ .section-title h2::after {
   content: '';
   position: absolute;
   display: block;
@@ -605,20 +607,11 @@ section {
   left: calc(50% - 20px);
 }
 
-.section-title p {
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #919191;
-}
+
 
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# About Us
---------------------------------------------------------------*/
-
 
 
 /*--------------------------------------------------------------
@@ -630,6 +623,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  z-index: -2;
 }
 
 .services .icon-box .icon {
@@ -692,6 +686,7 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  z-index: -2;
 }
 
 .contact .info i {
@@ -963,7 +958,7 @@ section {
   bottom: 280px;
   left: 0px;
   font-size: 11px;
-  z-index: 50;
+  /* z-index: 50; */
  
     
 }
@@ -978,7 +973,7 @@ section {
   bottom: 230px;
   left: 15px;
   font-size: 11px;
-  z-index: 50;
+  /* z-index: 50; */
  
 }
 #PhoneIcon:hover{
@@ -1121,4 +1116,9 @@ hr.lines:before {
 }
 #gall{
   margin-top: 50px;
+  
 }
+#galcont{
+  z-index: -2;
+}
+
